@@ -1,0 +1,15 @@
+{
+  "name": "cy-intercept",
+  "version": "1.0.0",
+  "description": "Cypress intercept",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "Kelvin Zussa",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.10.0",
+    "puppeteer": "^22.10.0"
+  }
+}
