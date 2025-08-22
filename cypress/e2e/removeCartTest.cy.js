@@ -14,10 +14,11 @@ describe('Teste carrinho', () => {
         cy.wait(1000);
    });
 
-    it('Remover ao cartinho', () => {
-        cy.intercept('GET', '**/public/getCart?userId=67fda28f36e994dfd8bab2d0', { fixture: 'cart.json' }).as('getCart');  
+    it('Remover do carrrinho', () => {
         cart.carrinho()
-        cart.addictionCart().should('be.visible')
+        cy.intercept('GET', '**/public/getCart?userId=67fda28f36e994dfd8bab2d0', { fixture: 'emptyCart.json' }).as('emptyCart');
+        cart.removeCart()
+        cart.removedCart().should('be.visible')
     });
     
 

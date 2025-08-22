@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "cart": {
+    "_id": "68a65271559fd0c50387b37c",
+    "products": [
+      {
+        "productId": "67c8d8619fccb188a86582aa",
+        "name": "Produto Teste",
+        "quantity": 2,
+        "price": 100
+      }
+    ],
+    "userId": "67fda28f36e994dfd8bab2d0",
+    "createdAt": "2025-08-20T22:55:45.960Z",
+    "updatedAt": "2025-08-21T22:40:35.695Z",
+    "__v": 0
+  }
+}

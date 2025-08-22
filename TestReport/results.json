@@ -1,0 +1,330 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "118.0.5993.159",
+  "config": {
+    "baseUrl": "http://lojaebac.ebaconline.art.br/",
+    "projectRoot": "C:\\QUALIDADE\\Modulo 23\\COPIA SEGURANÇA\\Aula 1",
+    "projectName": "Aula 1",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\QUALIDADE\\Modulo 23\\COPIA SEGURANÇA\\Aula 1\\cypress\\downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalFetchPolyfill": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "experimentalSkipDomainInjection": null,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\QUALIDADE\\Modulo 23\\COPIA SEGURANÇA\\Aula 1",
+    "fixturesFolder": "C:\\QUALIDADE\\Modulo 23\\COPIA SEGURANÇA\\Aula 1\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 51586,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+    "resolvedNodeVersion": "20.11.0",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\QUALIDADE\\Modulo 23\\COPIA SEGURANÇA\\Aula 1\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "C:\\QUALIDADE\\Modulo 23\\COPIA SEGURANÇA\\Aula 1\\cypress\\support\\e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "C:\\QUALIDADE\\Modulo 23\\COPIA SEGURANÇA\\Aula 1\\cypress\\videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "139",
+        "name": "chrome",
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "139.0.7258.128"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Edge",
+        "family": "chromium",
+        "majorVersion": "139",
+        "name": "edge",
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "139.0.3405.102"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 118,
+        "name": "electron",
+        "path": "",
+        "version": "118.0.5993.159"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\kelvin.zussa\\AppData\\Local\\Cypress\\Cache\\13.10.0\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "13.10.0",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "13.10.0",
+  "endedTestsAt": "2025-08-22T00:04:14.038Z",
+  "osName": "win32",
+  "osVersion": "10.0.19045",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2025-08-22T00:02:17.583Z",
+        "end": "2025-08-22T00:02:49.623Z",
+        "duration": 32040
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/QUALIDADE/Modulo 23/COPIA SEGURANÇA/Aula 1/cypress/e2e/addCartTest.cy.js",
+        "fileExtension": ".js",
+        "fileName": "addCartTest",
+        "name": "addCartTest.cy.js",
+        "relative": "cypress\\e2e\\addCartTest.cy.js"
+      },
+      "stats": {
+        "duration": 32006,
+        "endedAt": "2025-08-22T00:02:49.583Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-08-22T00:02:17.577Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 31995,
+          "state": "passed",
+          "title": [
+            "Teste carrinho",
+            "Remover ao cartinho"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2025-08-22T00:02:52.325Z",
+        "end": "2025-08-22T00:02:57.835Z",
+        "duration": 5510
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/QUALIDADE/Modulo 23/COPIA SEGURANÇA/Aula 1/cypress/e2e/intercept.cy.js",
+        "fileExtension": ".js",
+        "fileName": "intercept",
+        "name": "intercept.cy.js",
+        "relative": "cypress\\e2e\\intercept.cy.js"
+      },
+      "stats": {
+        "duration": 5508,
+        "endedAt": "2025-08-22T00:02:57.827Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-08-22T00:02:52.319Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 5497,
+          "state": "passed",
+          "title": [
+            "Teste de Autenticação",
+            "categories should be empty with error"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2025-08-22T00:03:01.414Z",
+        "end": "2025-08-22T00:03:10.336Z",
+        "duration": 8922
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/QUALIDADE/Modulo 23/COPIA SEGURANÇA/Aula 1/cypress/e2e/removeCartTest.cy.js",
+        "fileExtension": ".js",
+        "fileName": "removeCartTest",
+        "name": "removeCartTest.cy.js",
+        "relative": "cypress\\e2e\\removeCartTest.cy.js"
+      },
+      "stats": {
+        "duration": 8913,
+        "endedAt": "2025-08-22T00:03:10.321Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-08-22T00:03:01.408Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 8900,
+          "state": "passed",
+          "title": [
+            "Teste carrinho",
+            "Remover do carrrinho"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 0,
+        "pending": 0,
+        "failures": 1,
+        "start": "2025-08-22T00:03:13.388Z",
+        "end": "2025-08-22T00:04:14.044Z",
+        "duration": 60656
+      },
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\QUALIDADE\\Modulo 23\\COPIA SEGURANÇA\\Aula 1\\cypress\\screenshots\\updateCartTest.cy.js\\Teste carrinho - Update -- Atualizar quantidade de item no carrinho -- before each hook (failed).png",
+          "takenAt": "2025-08-22T00:04:13.506Z",
+          "width": 1280
+        }
+      ],
+      "spec": {
+        "absolute": "C:/QUALIDADE/Modulo 23/COPIA SEGURANÇA/Aula 1/cypress/e2e/updateCartTest.cy.js",
+        "fileExtension": ".js",
+        "fileName": "updateCartTest",
+        "name": "updateCartTest.cy.js",
+        "relative": "cypress\\e2e\\updateCartTest.cy.js"
+      },
+      "stats": {
+        "duration": 60658,
+        "endedAt": "2025-08-22T00:04:14.038Z",
+        "failures": 1,
+        "passes": 0,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-08-22T00:03:13.380Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "CypressError: Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.config.js` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Teste carrinho - Update`\n    at timedOutWaitingForPageLoad (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:130519:64)\n    at <unknown> (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:131505:16)\n    at tryCatcher (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1807:23)\n    at <unknown> (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:4186:41)\n    at tryCatcher (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://cy-intercept/./cypress/support/action/login.js:6:7)",
+          "duration": 60571,
+          "state": "failed",
+          "title": [
+            "Teste carrinho - Update",
+            "Atualizar quantidade de item no carrinho"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2025-08-22T00:02:17.577Z",
+  "totalDuration": 107085,
+  "totalFailed": 1,
+  "totalPassed": 3,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 4,
+  "totalTests": 4
+}
